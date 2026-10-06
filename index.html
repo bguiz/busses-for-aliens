@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-SG">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <title>Take Me To Your Bus Stop</title>
+  <meta name="description" content="A Singapore bus guide for first-time interstellar visitors, in Singlish and Shikadi.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 10 10%27%3E%3Ctext y=%279%27 font-size=%279%27%3E%F0%9F%9B%B8%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1 id="title"></h1>
+      <p class="sub" id="subtitle"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="s-where" class="card"></section>
+    <section id="s-pick" hidden></section>
+    <section id="s-journey" hidden></section>
+    <section id="s-guide"></section>
+  </main>
+
+  <footer class="wrap foot" id="foot"></footer>
+
+  <script src="data/glyphs.js"></script>
+  <script src="data/stops.js"></script>
+  <script src="data/services.js"></script>
+  <script src="data/places.js"></script>
+  <script src="data/credits.js"></script>
+  <script src="planner.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
